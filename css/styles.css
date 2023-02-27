@@ -86,6 +86,9 @@ a {
   text-decoration: none;
   color: var(--black);
 }
+.focus:focus {
+fill: var(--blue);
+}
 a:hover,
 a:focus {
   color: var(--blue);
@@ -290,4 +293,11 @@ footer {
   flex-direction: column;
   padding-bottom: 60px;
   padding-top: 60px;
+}
+.contact-icon {
+  width: 16px;
+  height: 12px;
+}
+.contact-icon:hover {
+  fill: var(--blue);
 }
