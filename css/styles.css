@@ -86,9 +86,6 @@ a {
   text-decoration: none;
   color: var(--black);
 }
-.focus:focus {
-fill: var(--blue);
-}
 a:hover,
 a:focus {
   color: var(--blue);
@@ -129,6 +126,11 @@ a:focus {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+}
+.background {
+  background-image: url("/images/gorup_project.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .title-h3 {
   text-align: left;
