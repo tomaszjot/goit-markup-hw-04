@@ -235,6 +235,9 @@ footer {
 .flex-grid-4-item {
   flex-basis: calc((100% - 90px) / 4);
 }
+.lorem-icons {
+  display: flex;
+}
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -297,9 +300,9 @@ footer {
   padding-top: 60px;
 }
 .contact-icon {
-  width: 16px;
-  height: 12px;
+  fill: var(--grey);
 }
-.contact-icon:hover {
+.contact-icon:hover,
+.contact-icon:focus {
   fill: var(--blue);
 }
