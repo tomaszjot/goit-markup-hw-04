@@ -311,3 +311,29 @@ footer {
 .contact-icon:focus {
   fill: var(--blue);
 }
+.social-links {
+  display: flex;
+  margin-top: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
+  gap: 10px;
+}
+.s-l {
+fill: var(--brand-color);
+}
+.s-l:focus,
+.s-l:hover {
+  fill: var(--blue);
+}
+.icons {
+  fill: #afb1b8;
+}
+
+.try {
+  fill: var(--brand-color);
+}
+.try:hover,
+.try:focus {
+  fill: var(--brand-color);
+}
+
