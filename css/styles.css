@@ -121,6 +121,9 @@ a:focus {
 .button-order:focus {
   color: var(--brand-color);
 }
+.gradient {
+  background-image: linear-gradient(to bottom, #2f303a 50%, #2f303a 50%);
+}
 .hero {
   background-color: var(--grey-darker);
   text-align: center;
@@ -237,6 +240,8 @@ footer {
 }
 .lorem-icons {
   display: flex;
+  background-color: var(--white2);
+  margin-bottom: 30px;
 }
 .products {
   display: flex;
