@@ -121,17 +121,13 @@ a:focus {
 .button-order:focus {
   color: var(--brand-color);
 }
-.gradient {
-  background-image: linear-gradient(to bottom, #2f303a 50%, #2f303a 50%);
-}
 .hero {
-  background-color: var(--grey-darker);
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
 }
 .background {
-  background-image: url("/images/gorup_project.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("/images/gorup_project.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }
