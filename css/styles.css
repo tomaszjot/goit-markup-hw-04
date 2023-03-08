@@ -89,6 +89,8 @@ a {
 a:hover,
 a:focus {
   color: var(--blue);
+  fill: var(--blue);
+  border: var(--blue);
 }
 .button:hover,
 .button:focus {
@@ -127,7 +129,7 @@ a:focus {
   padding-bottom: 200px;
 }
 .background {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4)), url("/images/gorup_project.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/images/gorup_project.jpg");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -239,6 +241,16 @@ footer {
   background-color: var(--white2);
   margin-bottom: 30px;
 }
+.clients {
+  display: flex;
+  gap: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.clients-border {
+  border: 1px solid #AFB1B8;
+border-radius: 4px;
+}
 .products {
   display: flex;
   flex-wrap: wrap;
@@ -313,23 +325,5 @@ footer {
   padding-left: 32px;
   padding-right: 32px;
   gap: 10px;
-}
-.s-l {
-fill: var(--brand-color);
-}
-.s-l:focus,
-.s-l:hover {
-  fill: var(--blue);
-}
-.icons {
-  fill: #afb1b8;
-}
-
-.try {
-  fill: var(--brand-color);
-}
-.try:hover,
-.try:focus {
-  fill: var(--brand-color);
 }
 
